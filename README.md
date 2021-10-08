@@ -1,2 +1,4 @@
 # 3d-bird-illustration
-show a bird illustration in 3D effect using HTML, CSS and JavaScript
+A bird illustration in 3D effect using HTML, CSS and JavaScript. The illustration is my original work, painting from reference photo https://fi.pinterest.com/pin/231372499592111829/
+
+
