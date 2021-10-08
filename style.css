@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+.container{
+    width: 80vh;
+    height: 80vh;
+    /* background-color: palevioletred; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.painting{
+    width: 60vh;
+    height: 60vh;
+    max-width: 1000px;
+    max-height: 1000px;
+    background-color: white;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2), 20px 20px 30px rgba(0,0,0,0.1);
+    position: relative;
+    transform-style: preserve-3d;
+    background: url(image/background.png) center/cover no-repeat;
+}
+.bird{
+    width: 80%;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    display: block;
+    z-index: 99;
+    transition: all 0.7s ease;
+}
+.branch{
+    width: 70%;
+    position: absolute;
+    bottom: 15%;
+    left: 20%;
+    display: block;
+    z-index: 4;
+    transition: all 0.7s ease;
+}
+.stamp{
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    display: block;
+    z-index: 3;
+    transition: all 0.7s ease;
+}
+.text{
+    width: 20%;
+    font-size: 20px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    z-index: 8;
+}
